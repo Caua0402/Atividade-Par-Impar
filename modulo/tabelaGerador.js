@@ -1,7 +1,7 @@
 /**********************
 * Objetivo: Criar uma tabela de par ou impar.
 *Autor: Cauã Felipe
-* Data: 13/02/2023
+* Data: 16/02/2023
 * Versão: 1.0
 **********************************/
 

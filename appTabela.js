@@ -1,7 +1,7 @@
 /**********************
 * Objetivo: Criar uma tabela de par ou impar.
 *Autor: Cauã Felipe
-* Data: 13/02/2023
+* Data: 16/02/2023
 * Versão: 1.0
 **********************************/
 
@@ -15,8 +15,8 @@ var entradaDados = readline.createInterface({
 
 })
 
-entradaDados.question('Digite um número de início entre 0 e 500: ', function (numeroDeInicio) {
-    let valor1 = numeroDeInicio;
+entradaDados.question('Digite um número de início entre 0 e 500: ', function (numeroInicio) {
+    let valor1 = numeroInicio;
     entradaDados.question('Digite até que número irá a tabela entre 100 e 1000: ', function (numeroFinal) {
         let valor2 = numeroFinal;
         entradaDados.question('Qual tabela irá querer?:\n\n- Ímpar\n- Par\n- Ambos\n\n',
